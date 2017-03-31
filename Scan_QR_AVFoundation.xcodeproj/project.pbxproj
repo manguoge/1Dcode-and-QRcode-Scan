@@ -13,6 +13,13 @@
 		FB49F94B1D7809B000BB3633 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB49F9491D7809B000BB3633 /* Main.storyboard */; };
 		FB49F94D1D7809B000BB3633 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB49F94C1D7809B000BB3633 /* Assets.xcassets */; };
 		FB49F9501D7809B000BB3633 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB49F94E1D7809B000BB3633 /* LaunchScreen.storyboard */; };
+		FB49F9591D7829C600BB3633 /* contact_scanframe@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB49F9571D7829C600BB3633 /* contact_scanframe@2x.png */; };
+		FB49F95A1D7829C600BB3633 /* contact_scanframe@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB49F9581D7829C600BB3633 /* contact_scanframe@3x.png */; };
+		FB49F95C1D7829E400BB3633 /* line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB49F95B1D7829E400BB3633 /* line@2x.png */; };
+		FB49F9671D782F0C00BB3633 /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = FB49F95F1D782F0C00BB3633 /* ALView+PureLayout.m */; };
+		FB49F9681D782F0C00BB3633 /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = FB49F9611D782F0C00BB3633 /* NSArray+PureLayout.m */; };
+		FB49F9691D782F0C00BB3633 /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = FB49F9631D782F0C00BB3633 /* NSLayoutConstraint+PureLayout.m */; };
+		FB49F96F1D78525000BB3633 /* NSArray+descrition.m in Sources */ = {isa = PBXBuildFile; fileRef = FB49F96E1D78525000BB3633 /* NSArray+descrition.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +33,20 @@
 		FB49F94C1D7809B000BB3633 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB49F94F1D7809B000BB3633 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB49F9511D7809B000BB3633 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB49F9571D7829C600BB3633 /* contact_scanframe@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "contact_scanframe@2x.png"; sourceTree = "<group>"; };
+		FB49F9581D7829C600BB3633 /* contact_scanframe@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "contact_scanframe@3x.png"; sourceTree = "<group>"; };
+		FB49F95B1D7829E400BB3633 /* line@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "line@2x.png"; sourceTree = "<group>"; };
+		FB49F95E1D782F0C00BB3633 /* ALView+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ALView+PureLayout.h"; sourceTree = "<group>"; };
+		FB49F95F1D782F0C00BB3633 /* ALView+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ALView+PureLayout.m"; sourceTree = "<group>"; };
+		FB49F9601D782F0C00BB3633 /* NSArray+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+PureLayout.h"; sourceTree = "<group>"; };
+		FB49F9611D782F0C00BB3633 /* NSArray+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+PureLayout.m"; sourceTree = "<group>"; };
+		FB49F9621D782F0C00BB3633 /* NSLayoutConstraint+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+PureLayout.h"; sourceTree = "<group>"; };
+		FB49F9631D782F0C00BB3633 /* NSLayoutConstraint+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+PureLayout.m"; sourceTree = "<group>"; };
+		FB49F9641D782F0C00BB3633 /* PureLayout+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PureLayout+Internal.h"; sourceTree = "<group>"; };
+		FB49F9651D782F0C00BB3633 /* PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureLayout.h; sourceTree = "<group>"; };
+		FB49F9661D782F0C00BB3633 /* PureLayoutDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureLayoutDefines.h; sourceTree = "<group>"; };
+		FB49F96D1D78525000BB3633 /* NSArray+descrition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+descrition.h"; sourceTree = "<group>"; };
+		FB49F96E1D78525000BB3633 /* NSArray+descrition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+descrition.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +79,13 @@
 		FB49F93F1D7809B000BB3633 /* Scan_QR_AVFoundation */ = {
 			isa = PBXGroup;
 			children = (
+				FB49F95D1D782F0C00BB3633 /* PureLayout */,
 				FB49F9431D7809B000BB3633 /* AppDelegate.h */,
 				FB49F9441D7809B000BB3633 /* AppDelegate.m */,
 				FB49F9461D7809B000BB3633 /* ViewController.h */,
 				FB49F9471D7809B000BB3633 /* ViewController.m */,
+				FB49F96D1D78525000BB3633 /* NSArray+descrition.h */,
+				FB49F96E1D78525000BB3633 /* NSArray+descrition.m */,
 				FB49F9491D7809B000BB3633 /* Main.storyboard */,
 				FB49F94C1D7809B000BB3633 /* Assets.xcassets */,
 				FB49F94E1D7809B000BB3633 /* LaunchScreen.storyboard */,
@@ -74,9 +98,28 @@
 		FB49F9401D7809B000BB3633 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FB49F9571D7829C600BB3633 /* contact_scanframe@2x.png */,
+				FB49F9581D7829C600BB3633 /* contact_scanframe@3x.png */,
+				FB49F95B1D7829E400BB3633 /* line@2x.png */,
 				FB49F9411D7809B000BB3633 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FB49F95D1D782F0C00BB3633 /* PureLayout */ = {
+			isa = PBXGroup;
+			children = (
+				FB49F95E1D782F0C00BB3633 /* ALView+PureLayout.h */,
+				FB49F95F1D782F0C00BB3633 /* ALView+PureLayout.m */,
+				FB49F9601D782F0C00BB3633 /* NSArray+PureLayout.h */,
+				FB49F9611D782F0C00BB3633 /* NSArray+PureLayout.m */,
+				FB49F9621D782F0C00BB3633 /* NSLayoutConstraint+PureLayout.h */,
+				FB49F9631D782F0C00BB3633 /* NSLayoutConstraint+PureLayout.m */,
+				FB49F9641D782F0C00BB3633 /* PureLayout+Internal.h */,
+				FB49F9651D782F0C00BB3633 /* PureLayout.h */,
+				FB49F9661D782F0C00BB3633 /* PureLayoutDefines.h */,
+			);
+			path = PureLayout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,6 +153,7 @@
 				TargetAttributes = {
 					FB49F93C1D7809B000BB3633 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = W95B5QABWP;
 					};
 				};
 			};
@@ -136,8 +180,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB49F9591D7829C600BB3633 /* contact_scanframe@2x.png in Resources */,
 				FB49F9501D7809B000BB3633 /* LaunchScreen.storyboard in Resources */,
 				FB49F94D1D7809B000BB3633 /* Assets.xcassets in Resources */,
+				FB49F95A1D7829C600BB3633 /* contact_scanframe@3x.png in Resources */,
+				FB49F95C1D7829E400BB3633 /* line@2x.png in Resources */,
 				FB49F94B1D7809B000BB3633 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -152,6 +199,10 @@
 				FB49F9481D7809B000BB3633 /* ViewController.m in Sources */,
 				FB49F9451D7809B000BB3633 /* AppDelegate.m in Sources */,
 				FB49F9421D7809B000BB3633 /* main.m in Sources */,
+				FB49F9671D782F0C00BB3633 /* ALView+PureLayout.m in Sources */,
+				FB49F9681D782F0C00BB3633 /* NSArray+PureLayout.m in Sources */,
+				FB49F9691D782F0C00BB3633 /* NSLayoutConstraint+PureLayout.m in Sources */,
+				FB49F96F1D78525000BB3633 /* NSArray+descrition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,7 +265,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -252,7 +303,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -263,10 +314,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Scan_QR_AVFoundation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hitszcerc.Scan-QR-AVFoundation";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -274,10 +329,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Scan_QR_AVFoundation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hitszcerc.Scan-QR-AVFoundation";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
